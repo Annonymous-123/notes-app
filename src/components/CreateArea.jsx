@@ -17,6 +17,7 @@ function ChangeHandler(event){
     props.addNote(note);
     setNote({title:"",content:""});
       event.preventDefault();
+  
   };
   function InputClickHandler(){
    setClicked(true);
